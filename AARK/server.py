@@ -7,7 +7,7 @@ ADDRESS = "localhost"
 PORT = 6337
 
 
-class AARCServer:
+class AARKServer:
     """
     Socket server that listens for client requests
     """

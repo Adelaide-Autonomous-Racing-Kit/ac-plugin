@@ -9,7 +9,7 @@ else:
 sys.path.insert(0, sysdir)
 os.environ["PATH"] = os.environ["PATH"] + ";."
 
-from server import AARCServer
+from server import AARKServer
 import ac
 
 server = None
@@ -26,7 +26,7 @@ def acMain(ac_version):
     ac.setFontSize(label, 12)
     ac.setPosition(label, 5, 103)
 
-    server = AARCServer()
+    server = AARKServer()
     server.start()
 
     return "AARK"
